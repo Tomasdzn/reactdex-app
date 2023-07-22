@@ -1,0 +1,50 @@
+.alert-container-error {
+  background-color: rgb(110, 9, 9);
+  color: white;
+  height: 50px;
+  margin: auto;
+  border: 2px solid rgb(180, 47, 47);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.alert-container-warning {
+  background-color: rgb(201, 193, 68);
+  border: 2px rgb(182, 170, 59) solid;
+  color: black;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.alert-container-error, .alert-container-warning b {
+  font-family: 'Jost';
+}
+
+/* Añadimos estilos para las transiciones */
+.alert-enter {
+  opacity: 0;
+}
+
+.alert-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.alert-exit {
+  opacity: 1;
+}
+
+.alert-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+/* Resto de estilos... */

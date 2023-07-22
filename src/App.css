@@ -1,0 +1,26 @@
+main {
+  background-color: rgb(14, 14, 14);
+  width: 400px;
+  height: fit-content;
+  margin: auto;
+  border: 1px rgb(66, 66, 66) solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: rgb(230, 230, 230);
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 430px) {
+  main {
+    width: 350px;
+  }
+}

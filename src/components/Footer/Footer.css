@@ -1,0 +1,10 @@
+footer p{
+  text-align: center;
+  font-family: 'Jost';
+  color: rgba(255, 255, 255, 0.661);
+  cursor: default;
+}
+
+footer{
+  margin-top: 20px;
+}
